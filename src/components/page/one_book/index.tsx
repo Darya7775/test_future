@@ -13,6 +13,7 @@ const OneBook: React.FC = () => {
 
   useEffect(() => {
     (async() => {
+      console.log("loadPage")
       await dispatch(fetchOneBook(idBook));
     })()
   }, []);
