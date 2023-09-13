@@ -10,7 +10,7 @@ interface Props {
   onSubmit: (e: React.SyntheticEvent) => void,
   onReset?: (e: React.SyntheticEvent) => void,
   textButton: string
-};
+}
 
 const Form: React.FC<Props> = (props: Props) => {
   return(

@@ -7,7 +7,7 @@ interface Props {
   onChange: (value: string) => void,
   text?: string,
   type?: string
-};
+}
 
 const Input: React.FC<Props> = (props: Props) => {
   // Внутренний стейт для быстрого отображения ввода

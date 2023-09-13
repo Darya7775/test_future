@@ -4,7 +4,7 @@ import * as S from "./styles";
 interface Props {
   text: string,
   size?: string
-};
+}
 
 const Spinner: React.FC<Props> = ({ text = '', size = '5em' }: Props) => {
 
