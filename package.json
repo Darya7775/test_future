@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "author": "Stolyarova Darya",
-  "homepage": "https://darya7775.github.io/test_future/",
+  "homepage": "https://darya7775.github.io/test_future",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack server --mode development",
