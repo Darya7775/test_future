@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "../base/layout";
 import Main from "../page/main";
 import OneBook from "../page/one_book";
@@ -8,7 +8,7 @@ import ScrollToTop from "../ui/scroll-to-top";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <GlobalStyles />
       <ScrollToTop />
       <Routes>
@@ -17,7 +17,7 @@ const App: React.FC = () => {
           <Route path="/book/:idBook" element={<OneBook />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
