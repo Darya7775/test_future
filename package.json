@@ -2,7 +2,7 @@
   "name": "my-react",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "main": "index.js",
   "author": "Stolyarova Darya",
   "homepage": "https://darya7775.github.io/test_future/",
   "scripts": {
