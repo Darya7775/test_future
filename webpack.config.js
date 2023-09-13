@@ -10,6 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './build'),
     filename: production ? '[name].[contenthash].js' : '[name].js',
+    clean: true,
   },
   module: {
     rules: [
@@ -47,7 +48,6 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './public/index.html',
-      base: '/'
     }),
   ],
   devtool: 'inline-source-map',
